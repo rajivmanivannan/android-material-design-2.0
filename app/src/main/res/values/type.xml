@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Typography-->
+  <!-- textAppearanceHeadline1: Font-Light, 96sp -->
+  <style name="TextAppearance.App.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+    <item name="fontFamily">@font/roboto_light</item>
+  </style>
+
+  <!-- textAppearanceHeadline2: Font-Light, 60sp -->
+  <style name="TextAppearance.App.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+    <item name="fontFamily">@font/roboto_bold_italic</item>
+  </style>
+
+  <!-- textAppearanceHeadline3: Font-Regular, 48sp -->
+  <style name="TextAppearance.App.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+    <item name="fontFamily">@font/roboto</item>
+  </style>
+
+  <!-- textAppearanceHeadline4: Font-Regular, 34sp -->
+  <style name="TextAppearance.App.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+    <item name="fontFamily">@font/roboto</item>
+  </style>
+
+  <!-- textAppearanceHeadline5: Font-Regular, 24sp -->
+  <style name="TextAppearance.App.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+    <item name="fontFamily">@font/roboto</item>
+  </style>
+
+  <!-- textAppearanceHeadline6: Font-Medium, 20sp -->
+  <style name="TextAppearance.App.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+    <item name="fontFamily">@font/roboto_medium</item>
+  </style>
+
+  <!-- textAppearanceSubtitle1: Font-Regular, 16sp -->
+  <style name="TextAppearance.App.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+    <item name="fontFamily">@font/roboto</item>
+  </style>
+
+  <!-- textAppearanceSubtitle2: Font-Medium, 14sp -->
+  <style name="TextAppearance.App.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+    <item name="fontFamily">@font/roboto_medium</item>
+  </style>
+
+  <!-- textAppearanceBody1: Font-Regular, 16sp -->
+  <style name="TextAppearance.App.Body1" parent="TextAppearance.MaterialComponents.Body1">
+    <item name="fontFamily">@font/roboto</item>
+    <item name="android:textSize">16sp</item>
+    <item name="lineHeight">24sp</item>
+  </style>
+
+  <!-- textAppearanceBody2: Font-Regular, 14sp -->
+  <style name="TextAppearance.App.Body2" parent="TextAppearance.MaterialComponents.Body2">
+    <item name="fontFamily">@font/roboto</item>
+    <item name="android:textSize">14sp</item>
+  </style>
+
+  <!-- textAppearanceCaption: Font-Regular, 12sp -->
+  <style name="TextAppearance.App.Caption" parent="TextAppearance.MaterialComponents.Caption">
+    <item name="fontFamily">@font/roboto</item>
+  </style>
+
+  <!-- textAppearanceButton: Font-Regular, 14sp All caps-->
+  <style name="TextAppearance.App.Button" parent="TextAppearance.MaterialComponents.Button">
+    <item name="fontFamily">@font/roboto</item>
+    <item name="android:textAllCaps">true</item>
+  </style>
+
+  <!-- textAppearanceOverline: Font-Regular, 12sp All caps-->
+  <style name="TextAppearance.App.Overline" parent="TextAppearance.MaterialComponents.Overline">
+    <item name="fontFamily">@font/roboto</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:textAllCaps">true</item>
+  </style>
+
+</resources>

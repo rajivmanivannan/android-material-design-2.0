@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/mobile_navigation"
+  app:startDestination="@+id/nav_playground">
+
+  <fragment
+    android:id="@+id/nav_playground"
+    android:name="com.rm.mdc2.ui.smallcomponent.SmallComponentFragment"
+    android:label="@string/menu_small_component"
+    tools:layout="@layout/fragment_small_component" />
+
+  <fragment
+    android:id="@+id/nav_transform"
+    android:name="com.rm.mdc2.ui.transform.TransformFragment"
+    android:label="@string/menu_transform"
+    tools:layout="@layout/fragment_transform" />
+
+  <fragment
+    android:id="@+id/nav_slideshow"
+    android:name="com.rm.mdc2.ui.mediumcomponent.MediumComponentFragment"
+    android:label="@string/menu_medium_component"
+    tools:layout="@layout/fragment_medium_component" />
+
+  <fragment
+    android:id="@+id/nav_settings"
+    android:name="com.rm.mdc2.ui.typography.TypographyFragment"
+    android:label="@string/menu_typography"
+    tools:layout="@layout/fragment_typography" />
+</navigation>

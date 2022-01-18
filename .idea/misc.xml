@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/avatar_1.xml" value="0.1638888888888889" />
+        <entry key="app/src/main/res/drawable/ic_android_color_control_normal_24dp.xml" value="0.3779487179487179" />
+        <entry key="app/src/main/res/drawable/ic_camera_black_24dp.xml" value="0.1638888888888889" />
+        <entry key="app/src/main/res/drawable/ic_face_black_24dp.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/drawable/ic_gallery_black_24dp.xml" value="0.1638888888888889" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1638888888888889" />
+        <entry key="app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_slideshow_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1638888888888889" />
+        <entry key="app/src/main/res/font/roboto_black.xml" value="0.3111111111111111" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_main.xml" value="0.187109375" />
+        <entry key="app/src/main/res/layout-w1240dp/app_bar_main.xml" value="0.187109375" />
+        <entry key="app/src/main/res/layout-w1240dp/content_main.xml" value="0.2362784471218206" />
+        <entry key="app/src/main/res/layout-w600dp/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-w600dp/app_bar_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-w600dp/content_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout-w600dp/fragment_transform.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout-w600dp/item_transform.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18292682926829268" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.21693840579710144" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_playground.xml" value="0.2694746376811594" />
+        <entry key="app/src/main/res/layout/fragment_reflow.xml" value="0.24909420289855072" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.24909420289855072" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.24909420289855072" />
+        <entry key="app/src/main/res/layout/fragment_small_component.xml" value="0.20625" />
+        <entry key="app/src/main/res/layout/fragment_transform.xml" value="0.2694746376811594" />
+        <entry key="app/src/main/res/layout/item_transform.xml" value="0.2694746376811594" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.22826086956521738" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/overflow.xml" value="0.36205128205128206" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

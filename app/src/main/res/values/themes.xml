@@ -1,12 +1,5 @@
-# Android Material Design 2.0
-
-This project is to understand and playaround with the Material Design 2.0 concepts and it's app
-components.
-
-The key file here is "res/values/themes.xml"
-
-```
-<!-- Base application theme. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
   <style name="Theme.MDC2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
     <!-- Primary brand color. -->
     <!-- The primary brand color of your app, used most predominantly in theming -->
@@ -45,36 +38,41 @@ The key file here is "res/values/themes.xml"
 
     <!-- Customize your theme here. -->
 
-</style>
-```
+    <!--Shapes-->
+    <!-- For small components, such as Buttons and Chips -->
+    <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+    <!-- For medium components, such as Cards ,Dialog-->
+    <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+    <!-- For large components, such as Bottom Sheets -->
+    <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
 
-# Color System
+    <!--Typography-->
+    <item name="textAppearanceHeadline2">@style/TextAppearance.App.Headline2</item>
+    <item name="textAppearanceHeadline3">@style/TextAppearance.App.Headline3</item>
+    <item name="textAppearanceHeadline4">@style/TextAppearance.App.Headline4</item>
+    <item name="textAppearanceHeadline5">@style/TextAppearance.App.Headline5</item>
+    <item name="textAppearanceHeadline6">@style/TextAppearance.App.Headline6</item>
+    <item name="textAppearanceSubtitle1">@style/TextAppearance.App.Subtitle1</item>
+    <item name="textAppearanceSubtitle2">@style/TextAppearance.App.Subtitle2</item>
+    <item name="textAppearanceBody1">@style/TextAppearance.App.Body1</item>
+    <item name="textAppearanceBody2">@style/TextAppearance.App.Body2</item>
+    <item name="textAppearanceButton">@style/TextAppearance.App.Button</item>
+    <item name="textAppearanceCaption">@style/TextAppearance.App.Caption</item>
+    <item name="textAppearanceOverline">@style/TextAppearance.App.Overline</item>
 
-![Color System](screenshots/color-system-0.png)  
-![Color System](screenshots/color-system-1.png)  
-![Color System](screenshots/color-system-2.png)  
-![Color System](screenshots/color-system-3.png)
+    <!--Styles-->
+    <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface
+    </item>
+    <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
+  </style>
 
-# Shapes
+  <style name="Theme.MDC2.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
 
-![Shapes Cut](screenshots/shapes-cut.png)  
-![Shapes Rounded](screenshots/shapes-rounded.png)
+  <style name="Theme.MDC2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-# Typography
+  <style name="Theme.MDC2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-![Typography](screenshots/typography.png)
-
-
----
-
-# Tools
-
-[Material Palette Generator](https://material.io/design/color/the-color-system.html#tools-for-picking-colors)
-
-[Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0)
-
-[Shape Customiser Tool](https://material.io/design/shape/about-shape.html#shape-customization-tool)
-
-[Material Icons](https://fonts.google.com/icons)
-
-
+</resources>

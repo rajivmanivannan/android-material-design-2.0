@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_margin="16dp"
+  android:orientation="vertical"
+  tools:context=".ui.typography.TypographyFragment"
+  >
+
+  <TextView
+    style="@style/TextAppearance.App.Headline1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="H1"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Headline2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="H2"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Headline3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="H3"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Headline4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="H4"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Headline6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="H5"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Headline6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="H6"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Subtitle1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Subtitle1"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Subtitle2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Subtitle2"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Body1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Body1"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Body2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Body2"
+    />
+
+  <TextView
+    style="@style/TextAppearance.AppCompat.Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Button"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Caption"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Caption"
+    />
+
+  <TextView
+    style="@style/TextAppearance.App.Overline"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Overline"
+    />
+</LinearLayout>

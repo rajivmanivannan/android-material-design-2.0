@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- The launcher theme. It sets the main window background to the launch_screen drawable -->
+  <style name="Theme.MDC2.Launcher">
+    <!-- <item name="android:windowBackground">@drawable/launcher_screen</item> -->
+    <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+    <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+  </style>
+
+  <!--Components-->
+
+  <style name="Widget.App.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+    <!--Remove any scrim insets applied by NavigationView for system bars-->
+    <item name="insetForeground">@android:color/transparent</item>
+    <item name="elevation">2dp</item>
+    <item name="itemTextAppearance">?attr/textAppearanceBody2</item>
+  </style>
+
+
+</resources>
